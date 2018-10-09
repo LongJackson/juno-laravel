@@ -1,0 +1,44 @@
+%circle {
+	border-radius: 50%;
+	background: $c3;
+}
+
+@mixin circle_icon($size: 30px){
+	border-radius: 50%;
+	background: $c3;
+	height: $size;
+	width: $size;
+	text-align: center;
+	line-height: $size;
+}
+
+@mixin bg_color($color: $c1){
+	background-color: $color !important;
+}
+
+@mixin color($color: $c1){
+	color: $color !important;
+}
+
+
+@mixin visible($visibility: visible , $opacity: 1){
+	opacity: $opacity;
+	visibility: $visibility;
+}
+
+.bg_c4 {
+	@include bg_color($c4);
+}
+.cl_c1 {
+	@include color($c1);
+}
+
+.rating {
+		span {
+			cursor: pointer;
+			color: $c3;
+			&.checked {
+				color: $c7;
+			}
+		}
+	}

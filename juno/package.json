@@ -1,0 +1,17 @@
+{
+  "name": "juno",
+  "version": "1.0.0",
+  "description": "Trang bán hàng online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cao Anh Nhất",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^4.7.2",
+    "jquery": "^3.3.1"
+  }
+}

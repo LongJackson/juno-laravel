@@ -1,0 +1,93 @@
+
+#maps {
+    background: url("../access/image/maps.jpg") 0 0;
+    height: 350px ;
+    text-align: center;
+        a{
+        background: #000;
+        opacity: 0.8;
+        padding: 10px 50px;
+        border: 3px solid #fff;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 25px;
+        display: inline-block;
+        margin-top: 150px;
+        }
+}
+
+#footer-t {
+    padding: 15px 0;
+        .time_call{
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 12px;
+            margin: 0;
+    }
+
+        .more {
+            font-size: 12px;
+        }
+
+        .hotline {
+            color: $c4;
+            font-size: 25px;
+        }
+}
+#subcribe p, #social p {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+#social {
+    span {
+            font-size: 40px;
+        }
+    a {
+            margin-left: 10px;
+        }
+}
+#subcribe {
+        input[type=email] {
+            width: 65%;
+            border: 1px solid #cbcbcb;
+            font-size: 12px;
+            padding-left: 10px;
+            float: left;
+            height: 40px;
+            line-height: 40px;
+        }
+        input[type=submit] {
+            height: 40px;
+            line-height: 40px;
+            float: left;
+            border: 1px solid #333;
+            background: #333;
+            color: #FFF;
+            width: 30%;
+            font-size: 14px;
+        }
+        
+        
+}
+ 
+#footer-m {
+    height: auto;
+    line-height: 40px;
+    background: #f4f4f4;
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #666;
+        }
+}
+#footer-b {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background: #e5e5e5;
+        p {
+            font-size: 12px;
+        }
+}

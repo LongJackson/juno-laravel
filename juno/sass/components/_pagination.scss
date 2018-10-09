@@ -1,0 +1,18 @@
+.pagination {
+	.page-item {
+		margin-right: $min/2;
+		.page-link {
+			color: $c6;
+		}
+		&.active {
+			.page-link {
+				background: $c6;
+				border-color: $c6;
+				color: $c1;
+			}
+		}
+		.page-link {
+
+		}
+	}
+}
